@@ -405,9 +405,8 @@ const Home = () => {
                             <div style={{ width: "90%" }}>
                                 <img
                                     src={foot_banner}
-                                    height="500px"
                                     width="100%"
-                                    style={{ borderRadius: 50, boxShadow: "5px 5px 5px black" }}
+                                    style={{ borderRadius: 50, boxShadow: "5px 5px 5px black", height: "500px" }}
                                 />
                             </div>
                             <div style={{ width: "100%" }}>

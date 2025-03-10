@@ -5,7 +5,7 @@ const Footer = () => {
     return (
         <div>
             <footer className="foot">
-                <div style={{ width: "100%", marginTop: 20 }}>
+                {/* <div style={{ width: "100%", marginTop: 20 }}>
                     <center>
                         <h1
                             style={{
@@ -19,7 +19,7 @@ const Footer = () => {
                             Links
                         </h1>
                     </center>
-                </div>
+                </div> */}
                 <ul className="foot-links">
                     <li className="li">
                         <NavLink to="/vehicles">Vehicles</NavLink>
@@ -90,6 +90,9 @@ const Footer = () => {
                                 <i className="fa-solid fa-phone" />
                                 <NavLink to="phoneto:+91998876655"> +91998876655</NavLink>
                             </p>
+                            <p style={{padding : "30px"}}>Have questions?
+                                <NavLink to="/contact"> Contact us </NavLink>
+                                —we’re here to help!</p>
                             <br />
                         </center>
                     </div>

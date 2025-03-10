@@ -82,7 +82,7 @@ button {
   /* background-color: gray; */
 }
 .foot-links {
-  @apply w-4/5 flex justify-evenly list-none flex-wrap gap-[30px] p-2.5 bg-[rgb(180,215,228)] shadow-[2px_2px_2px] rounded-[20px];
+  @apply w-4/5 flex justify-evenly list-none flex-wrap gap-[30px] p-2.5 shadow-[2px_2px_2px] rounded-[20px];
 }
 .foot-links li a {
   @apply no-underline text-[22px] text-[Black] font-[bold];
@@ -90,11 +90,11 @@ button {
 a {
   @apply no-underline;
 }
-.main-1 {
+/* .main-1 {
   @apply flex flex-wrap justify-center items-center;
-}
+} */
 .login_form {
-  @apply w-2/5 border flex flex-wrap h-3/6 justify-center items-center flex-col bg-[rgb(180,215,228)] shadow-[2px_2px_2px_2px] rounded-[30px] border-solid border-[black];
+  @apply  border flex flex-wrap  justify-center items-center flex-col bg-[rgb(180,215,228)] shadow-[1px_1px_1px_1px] rounded-[30px] border-solid border-[black];
 }
 label {
   @apply text-lg;
@@ -107,7 +107,7 @@ input {
   /* background-color: rgb(189, 189, 189); */
 }
 .foot-links {
-  @apply w-4/5 flex justify-evenly list-none flex-wrap gap-[30px] p-2.5 bg-[rgb(180,215,228)] shadow-[2px_2px_2px] rounded-[20px];
+  @apply w-4/5 flex justify-evenly list-none flex-wrap gap-[30px] p-2.5  shadow-[2px_2px_2px] rounded-[20px];
 }
 .foot-links li a {
   @apply no-underline text-[22px] text-[Black] font-[bold];
@@ -121,7 +121,7 @@ a {
   /* background-color: gray; */
 }
 .foot-links {
-  @apply w-4/5 flex justify-evenly list-none flex-wrap gap-[30px] p-2.5 bg-[rgb(180,215,228)] shadow-[2px_2px_2px] rounded-[20px];
+  @apply w-4/5 flex justify-evenly list-none flex-wrap gap-[30px] p-2.5 shadow-[2px_2px_2px] rounded-[20px];
 }
 .foot-links li a {
   @apply no-underline text-[22px] text-[Black] font-[bold];
@@ -129,15 +129,38 @@ a {
 a {
   @apply no-underline;
 }
-.main-1 {
+/* .main-1 {
   @apply flex flex-wrap justify-center items-center;
-}
+} */
 .signup_form {
-  @apply w-2/5 border flex flex-wrap h-[600px] justify-center items-center flex-col bg-[rgb(180,215,228)] shadow-[2px_2px_2px_2px] p-[50px] rounded-[30px] border-solid border-[black];
+  @apply  border flex flex-wrap  justify-center items-center flex-col bg-[rgb(180,215,228)] shadow-[2px_2px_2px_2px] rounded-[30px] border-solid border-[black] ;
 }
+
 label {
   @apply text-lg;
 }
 input {
   @apply border border-solid border-[black];
 }
+.active{
+  @apply no-underline text-[black] text-xl font-[bold] p-[5px];
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.foot {
+  @apply w-full flex flex-wrap gap-[30px] justify-evenly bg-[linear-gradient(white,rgb(180,215,228))] pb-[30px];
+  /* background-color: gray; */
+}
+.foot-links {
+  @apply w-4/5 flex justify-evenly list-none flex-wrap gap-[30px] p-2.5  shadow-[2px_2px_2px] rounded-[20px];
+}
+.foot-links li a {
+  @apply no-underline text-[22px] text-[Black] font-[bold];
+}
+a {
+  @apply no-underline;
+}
+label {
+  @apply text-xl;
+}
+
